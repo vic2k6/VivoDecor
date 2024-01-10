@@ -7,7 +7,8 @@
 }
  
 body{
-    background-color: whitesmoke;
+    background-color:#FFFFFF;
+    font-family: 'Inter', sans-serif;
 }
 /* HEADER STYLING */
 header{
@@ -23,95 +24,373 @@ header> nav> a {
     font-size: 16px;
     font-weight:600 ;
     margin-left: 40px;
-    font-family: inter,sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .sign-up-btn {
     background-color:#1F1F1F ;
-    width: 176px;
-    height: 60px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 88px;
+    padding-right: 88px;
     color: #FFFFFF;
-    font-family: inter,sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+    border-radius: 4px;
 }
+
+
 
 /* HERO-SECTION STYLES */
 
-.hero-section {
+.top-hero-section {
     display: flex;
-    justify-content: space-around;
-    /* align-items: center; */
-    margin-top: 50px;
-    /* margin-left: 100px; */
+    justify-content: space-evenly;
+    align-items: top;
+    margin-top: 40px; 
 }
 
-.left-hero-section> h1 {
-    font-family: inter,sans-serif;
-    font-size: 133px;
-    font-weight: 500px;
-    line-height: 160px;
-    margin-top: 80px;
+
+/*EFT HERO SECTION  */
+
+.left-hero-section { 
+    margin-left: 105px;
+    margin-top: 20px;
 }
 
-.left-hero-section> p {
-    font-size: 24px;
+
+.design {
+    font-weight: 500;
+    font-size: 120px;
+    line-height: 160.96px;
+    color: #1F1F1F;
+    width: 933px;
+    height: 161px;
+  
+}
+
+.step {
     font-weight: 500px;
-    font-family: inter,sans-serif;
+    font-size: 20px;
     line-height: 42.12px;
-    color: #545454;
-    padding-top: 30px;
-    text-align: justify;
+    width: 759px;
+    height: 168px;
 }
 
-.right-hero-section{
-    margin-top: 70px;
+.chair-image{
+    width: 500px;
+    height: 428px;
+    border-radius: 4px;
+    padding-bottom: 40px;
+    padding-right: 105px;
 }
 
  .project{
-    background-color: #1F1F1F;
+    background-color:#1F1F1F ;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 88px;
+    padding-right: 88px;
     color: #FFFFFF;
-    width: 302px;
-    height: 86px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
     border-radius: 4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
  }
 
- /* BUTTOM HERO SECTION */
+ /* <!-- BUTTOM HERO SECTION  --> */
 
-.btm-hero-section{
+ .buttom-hero-section {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 70px;
+    justify-content: space-between;
+
+ }
+
+ .start {
+    background-color:#1F1F1F ;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 88px;
+    padding-right: 88px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    border-radius: 4px;
+
+ }
+
+    /* SERVICES SECTION  */
+
+    .services-section {
+        margin-top: 80px;
+    }
+    .float-div{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .services {
+    font-family: 'Inter', sans-serif;
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F1F1F;
+    }
+
+    .float {
+        float: left;
+        margin-right: 20px;
+    }
+
+    .light {
+        margin-bottom: 50px;
+    }
+
+    .achieve {
+        width: 359px;
+        margin-left: 88px;
+    }
+
+    .interior {
+        float: left;
+        margin-right: 20px;
+    }
+
+    .from {
+        width: 250px;
+        margin-left: 88px;
+        margin-top: 50px;
+    }
+
+    .outdoor {
+        float: left;
+        margin-right: 20px;
+    }
+    .celebrate {
+        width: 250px;
+        margin-left: 88px;
+        margin-top: 50px;
+    }
+
+    .light-div {
+        margin-right: 30px;
+    }
+   
+    /* DREAM SECTION  */
+
+    .dream-section {
+        margin-top: 200px;
+    }
+    .dream-div {
+        display: flex;
+    }
+
+    .dream-img {
+        margin-right: 60px;
+        width: 711px;
+        border-radius: 4px;
+        margin-left: 50px;
+    }
+
+    .dream {
+    font-family: Inter;
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 40px;
+
+    }
+
+    .elevate {
+     font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 50px;
+
+    }
+
+    .room {
+        margin-bottom: 40px;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+        border: 2px solid black;
+    }
+
+    .office {
+        margin-bottom: 45px;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+        border: 2px solid black;
+    }
+
+    .plus-plus {
+        margin-left: 272px;
+    }
+
+    .plus {
+        margin-left: 125px;
+    }
+
+    .learn {
+        margin-top: 80px;
+        background-color:#1F1F1F ;
+        padding-top: 22px;
+        padding-bottom: 22px;
+        padding-left: 88px;
+        padding-right: 88px;
+        color: #FFFFFF;
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+        border-radius: 4px;
+    }
+
+    /* DESIGNING YOUR DREAM  */
+
+
+    .your-dream-section {
+        margin-top: 100px;
+    }
+
+.steps {
+    display: flex;
+    justify-content: flex-start;
 }
 
-.btm-hero-section>.bhs> .p-head{
-    font-family: inter sans-serif;
-    font-size: 70px;
-    font-weight: 84.72px;
-    line-height: 26.63px;
-    text-align: center;
-    color: #545454;
+.steps-div {
+    margin-left: 60px;
 }
 
-.btm-hero-section> .bhs> .p-foot{
-    font-family: inter sans-serif;
-    font-size: 22px;
-    font-weight: 400px;
-    line-height: 26.63px;
-    text-align: center;
-    color: #545454;
+.designing {
+    font-family: Inter;
+font-size: px;
+font-weight: 600;
+line-height: 70px;
+letter-spacing: 0em;
+text-align: left;
+width: 704px;
+}
+
+.eclipse {
+    float: left;
+    margin-right: 30px;
+
+   
+}
+
+.project-div {
+    margin-top: 50px;
+}
+
+.project-start {
+    color: #1F1F1F;;
+    font-family: Inter;
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+
+
+
+.embark {
+    font-family: Inter;
+font-size: 15px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+width: 569px;
+color: #545454;
+margin-top: 50px;
+margin-left: 100px;
+}
+
+.dream-img {
+    width: 697.88px;
+height: 851px;
+top: 1px;
+left: 824px;
+
+}
+
+.craft-div {
     margin-top: 30px;
+}
+.craft-eclipse {
+    float: left;
+    margin-right: 30px;
+}
+
+.closely{
+    margin-top: 53px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 569px;
+    color: #545454;
+    margin-left: 100px;
+}
+
+.craft {
+    color: #1F1F1F;;
+    font-family: Inter;
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.execute-img{
+    float: left;
+    margin-right: 30px;
+}
+
+.witness {
+    margin-top: 53px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 569px;
+    color: #545454;
+    margin-left: 100px;
+}
+
+.execute{
+    color: #1F1F1F;;
+    font-family: Inter;
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
 
 }
 
-.services-section{
-    display: flex;
-}
 
+/* SUBSCRIBE SECTION  */
+
+.subscribe-section {
+    margin-top: 50px;
+}

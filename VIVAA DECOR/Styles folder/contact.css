@@ -1,0 +1,118 @@
+/* RESET CSS */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+ 
+body{
+    background-color: whitesmoke;
+    font-family: 'Inter', sans-serif;
+}
+/* HEADER STYLING */
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+header> nav> a {
+    color: #1F1F1F;
+    font-size: 16px;
+    font-weight:600 ;
+    margin-left: 40px;
+    font-family: 'Inter', sans-serif;
+}
+
+.sign-up-btn {
+    background-color:#1F1F1F ;
+    width: 176px;
+    height: 60px;
+    color: #FFFFFF;
+    font-family: inter,sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* HERO-SECTION STYLES */
+
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin-top: 50px;
+    /* margin-left: 100px; */
+}
+
+.left-hero-section> h1 {
+    font-family: inter,sans-serif;
+    font-size: 133px;
+    font-weight: 500px;
+    line-height: 160px;
+    margin-top: 80px;
+}
+
+.left-hero-section> p {
+    font-size: 24px;
+    font-weight: 500px;
+    font-family: inter,sans-serif;
+    line-height: 42.12px;
+    color: #545454;
+    padding-top: 30px;
+    text-align: justify;
+}
+
+.right-hero-section{
+    margin-top: 70px;
+}
+
+ .project{
+    background-color: #1F1F1F;
+    color: #FFFFFF;
+    width: 302px;
+    height: 86px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ /* BUTTOM HERO SECTION */
+
+.btm-hero-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.btm-hero-section>.bhs> .p-head{
+    font-family: inter sans-serif;
+    font-size: 70px;
+    font-weight: 84.72px;
+    line-height: 26.63px;
+    text-align: center;
+    color: #545454;
+}
+
+.btm-hero-section> .bhs> .p-foot{
+    font-family: inter sans-serif;
+    font-size: 22px;
+    font-weight: 400px;
+    line-height: 26.63px;
+    text-align: center;
+    color: #545454;
+    margin-top: 30px;
+
+}
+
+.services-section{
+    display: flex;
+}
+
